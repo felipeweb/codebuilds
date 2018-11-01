@@ -38,7 +38,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THIS SOFTWARE.
 ";
 
 printf "Install now? (y/n): "
-read install_now;
+install_now = "y";
 if [ $install_now != "y" ]; then
   echo "No problem!  Please just run me again whenever you wish to install Visual Studio Code.";
   exit;
